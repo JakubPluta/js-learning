@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+.txt-type > .txt {
+  border-right: 0.15rem solid #777;
+  /* border-bottom: 0.001rem solid pink; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 3rem;
+}
+
+.content::before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url("jp.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  filter: grayscale(36%);
+}
+.content {
+  background: linear-gradient(45deg, #00000088 30%, #ffffff44 100%);
+}
+
+h1,
+h2 {
+  font-weight: 200;
+  margin: 0.5rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #aaa;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 2rem;
+    color: #aaa;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.45rem;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}
