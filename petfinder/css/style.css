@@ -1,0 +1,20 @@
+.container {
+  width: 60%;
+}
+body {
+  background: linear-gradient(
+    to bottom right,
+    rgb(69, 204, 197),
+    rgba(255, 255, 255)
+  );
+}
+
+.card-body {
+  border-radius: 1rem;
+  align-items: space-evenly;
+  justify-content: space-between;
+}
+
+.card img {
+  align-self: right;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "bookapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "dotenv": "^10.0.0",
+    "fetch-jsonp": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakubPluta/js-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakubPluta/js-learning/issues"
+  },
+  "homepage": "https://github.com/JakubPluta/js-learning#readme"
+}
